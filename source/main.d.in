@@ -1,0 +1,25 @@
+module main;
+
+import std.string;
+import std.path;
+import std.stdio;
+
+import gio.Resource;
+import gtk.Main;
+
+import rivalgui.app;
+
+string pkgdatadir = "@pkgdatadir@";
+
+void main (string[] args)
+{
+    writeln("Starting rivalgui...");
+
+    auto resource = Resource.load(buildPath(pkgdatadir,
+                                            "org.aurorafoss.rivalgui.gresource"));
+    Resource.register(resource);
+
+    Main.init(args);
+    auto app = new RivalGUI();
+    app.run(args);
+}

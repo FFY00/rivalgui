@@ -1,0 +1,5 @@
+build/
+builddir/
+dub.selections.json
+.vscode/
+*~

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=RivalGUI
+Comment=Application to configure the Rival310 mouse
+Exec=rivalgui
+Icon=input-mouse
+Type=Application
+DBusActivatable=true
+StartupNotify=true

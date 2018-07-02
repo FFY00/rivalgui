@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>org.aurorafoss.riavlgui.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>RivalGUI</name>
+  <summary>Application to configure the Rival310 mouse.</summary>
+  <kudos>
+    <kudo>AppMenu</kudo>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>ModernToolkit</kudo>
+  </kudos>
+  <categories>
+    <category>Developer</category>
+  </categories>
+  <project_group>GNOME</project_group>
+  <update_contact>filipe.lains@gmail.com</update_contact>
+  <url type="homepage">https://github.com/FFY00/rivalgui</url>
+  <url type="bugtracker">https://github.com/FFY00/rivalgui/issues</url>
+  <translation type="gettext">rivalgui</translation>
+</component>
