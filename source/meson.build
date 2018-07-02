@@ -2,8 +2,6 @@ source_dir = include_directories('.')
 
 rivalgui_sources = [
     'rivalgui/app.d',
-#    'rivalgui/appwindow.d',
-    'rivalgui/buttons.d',
     'rivalgui/util/ledcolor.d'
 ]
 
@@ -11,7 +9,6 @@ rivalgui_sources = [
 #                                include_directories: inc,
 #                                dependencies: [gtkd_dep, hidapid_dep])
 
-# 
 conf = configuration_data()
 conf.set('VERSION', meson.project_version())
 conf.set('pkgdatadir', pkgdatadir)

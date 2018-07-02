@@ -38,26 +38,6 @@ class LedColor
         transform();
     }
 
-    double getR()
-    {
-        return r;
-    }
-
-    double getG()
-    {
-        return g;
-    }
-
-    double getB()
-    {
-        return b;
-    }
-
-    double getA()
-    {
-        return a;
-    }
-
     private void transform()
     {
         a = max(r, g, b);
